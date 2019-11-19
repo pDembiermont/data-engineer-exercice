@@ -1,8 +1,10 @@
 # Data Engineer Test
 
-The purpose of this exercice is to 
+The purpose of this exercice is to run through some of the basic knowledge needed when doing data engineering as your day-to-day job. It's by no way exhaustive, just what appears to me as basic concepts for the job.
 
 # Part I
+
+In this part we will see some data managing as well as some data manipulation.
 
 ## Step 1 : Download file in python
 
@@ -49,6 +51,8 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * Redo `Step 6` but this time don't filter (on `sub_nature`= `SA`) in pandas but directly by amending `bdpm_request.sql` (practically create a new file called `filtered_bdpm_request.sql` in the same directory)
 
 # Part II
+
+As structured data is not the most common source of data on the world wide web, this section aims at gaining basic knowledge on how to harvest and then query unstructured data.
 
 ## Step 1 : Data harvesting from the web
 
