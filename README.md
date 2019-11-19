@@ -1,6 +1,18 @@
 # Data Engineer Test :hammer:
 
-The purpose of this exercice is to run through some of the basic knowledge needed when doing data engineering as your day-to-day job. It's by no way exhaustive, just what appears to me as basic concepts needed for the job.
+The purpose of this repo is to run through some of the basic knowledge needed when doing data engineering as your day-to-day job. It's by no way exhaustive, just what appears to me as basic concepts needed for the job.
+
+# Table of contents
+
+* [Part I](#part-i)
+* [Part II](#part-ii)
+
+# General instructions
+
+- You must provide an online repository.
+- Your online repository should contain some form of written report (even minimal) describing what you did and why you did it this way (don't need to write a book).
+- You must not push credentials online.
+- Don't hesitate to reach out to me if you're stuck.
 
 # Part I
 
