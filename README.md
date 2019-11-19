@@ -48,7 +48,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * To avoid unwanted data loading, we can filter the active substances directly in sql.
 * Redo `Step 6` but this time don't filter (on `sub_nature`= `SA`) in pandas but directly by amending `bdpm_request.sql` (practically create a new file called `filtered_bdpm_request.sql` in the same directory)
 
-# Part 2
+# Part 2 (optional)
 
 ## Step 1 : Data harvesting from the web
 
@@ -57,9 +57,11 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * We end up with a list of selectors, we want to merge `p` until we meet a `h2` then start merging again.
 * Merge the `h2` text content to the corresponding paragraph.
 
+**Tips**: use the `xpath` selector to query `p` and `h2` from the root of the div `#mw-content-text`.
+
 ## Step 2 : Searching the content using Elasticsearch
 
-* Now that we have some clean paragraphs, we need to allow full text query in them. For this part we will use Elasticsearch.
+* Now that we have some clean paragraphs (almost), we need to allow full text query in them. For this part we will use Elasticsearch.
 * Use the `docker-compose` file from [here](https://github.com/deviantony/docker-elk) and start the Elasticsearch, Kibana, Logstash (ELK) stack.
 * You will need to use a way to index documents from python into elasticsearch. You can use [this package](https://elasticsearch-py.readthedocs.io/en/master/).
 * When documents are indexed, take a look at [kibana](localhost:5601) to check everything is correctly in.
