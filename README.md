@@ -1,6 +1,6 @@
 # Data Engineer Test
 
-The purpose of this exercice is to run through some of the basic knowledge needed when doing data engineering as your day-to-day job. It's by no way exhaustive, just what appears to me as basic concepts for the job.
+The purpose of this exercice is to run through some of the basic knowledge needed when doing data engineering as your day-to-day job. It's by no way exhaustive, just what appears to me as basic concepts needed for the job.
 
 # Part I
 
