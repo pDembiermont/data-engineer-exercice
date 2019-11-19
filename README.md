@@ -24,7 +24,7 @@ In this part we will see some data management as well as some data manipulation.
 * Download and save csv files in **utf-8** encoding from [Base de donnée publique du médicament (Bdpm)](http://base-donnees-publique.medicaments.gouv.fr/telechargement.php).
 * You will only need the *composition* and *specialties* files (`Fichier des spécialités`, `Fichier des compositions`)
 <br><br>
-**Tips**: Files are **tab** (`\t`) seprated and encoded using `cp1252`
+**Tips**: Bdpm files are **tab** (`\t`) seprated and encoded using `cp1252`
 
 ## Step 2 : Targz
 
