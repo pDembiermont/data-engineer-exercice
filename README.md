@@ -80,7 +80,7 @@ As structured data is not the most common source of data on the world wide web, 
 
 * Now that we have some clean paragraphs (almost), we need to allow full text query in them. For this part we will use Elasticsearch.
 * Use the `docker-compose` file from [here](https://github.com/deviantony/docker-elk) and start the Elasticsearch, Kibana, Logstash (ELK) stack.
-* You will need to use a way to index documents from python into elasticsearch. You can use [this package](https://elasticsearch-py.readthedocs.io/en/master/).
+* You will need to have a way to index documents from python into elasticsearch. You can use [this package](https://elasticsearch-py.readthedocs.io/en/master/).
 * When documents are indexed, take a look at [kibana](localhost:5601) to check everything is correctly in.
 * Now create a function that, given a string, queries Elasticsearch and returns the result.
 * Print the result then save it as a json file in `results/elasticsearch/`.
