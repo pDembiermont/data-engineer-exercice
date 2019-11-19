@@ -43,7 +43,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 <br><br>
 **Tips**: We want to convert the coma between digit to a dot.
 
-## Step 7 : Filter in mysql
+## Step 7 : Filter in sql
 
 * To avoid unwanted data loading, we can filter the active substances directly in mysql.
 * Redo `Step 6` but this time don't filter (on `sub_nature`= `SA`) in pandas but directly by amending `bdpm_request.sql` (practically create a new file called `filtered_bdpm_request.sql` in the same directory)
