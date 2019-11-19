@@ -24,7 +24,7 @@ In this part we will see some data management as well as some data manipulation.
 * Download and save csv files in **utf-8** encoding from [Base de donnée publique du médicament (Bdpm)](http://base-donnees-publique.medicaments.gouv.fr/telechargement.php).
 * You will only need the *composition* and *specialties* files (`Fichier des spécialités`, `Fichier des compositions`)
 <br><br>
-**Tips**: Bdpm files are **tab** (`\t`) seprated and encoded using `cp1252`
+:star: **Tips**: Bdpm files are **tab** (`\t`) seprated and encoded using `cp1252`
 
 ## Step 2 : Targz
 
@@ -74,7 +74,7 @@ As structured data is not the most common source of data on the world wide web, 
 * We end up with a list of selectors, we want to merge `p` until we meet a `h2` then start merging again.
 * Merge the `h2` text content to the corresponding paragraph.
 
-**Tips**: use the `xpath` selector to query `p` and `h2` from the root of the div `#mw-content-text`.
+:star: **Tips**: use the `xpath` selector to query `p` and `h2` from the root of the div `#mw-content-text`.
 
 ## Step 2 : Searching the content using Elasticsearch
 
