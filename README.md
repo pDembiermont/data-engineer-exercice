@@ -12,11 +12,12 @@ The purpose of this repo is to run through some of the basic knowledge needed wh
 - You must provide an online repository.
 - Your online repository should contain some form of written report (even minimal) describing what you did and why you did it this way (don't need to write a book).
 - You must not push credentials online.
+- You should not put others code in your repository (so don't commit other repositories cited in this README).
 - Don't hesitate to reach out to me if you're stuck.
 
 # Part I
 
-In this part we will see some data managing as well as some data manipulation.
+In this part we will see some data management as well as some data manipulation.
 
 ## Step 1 : Download file in python
 
@@ -40,7 +41,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * You can view your newly created `mysql` database using a GUI tool like TablePlus (mac/windows) or Sequel Pro (mac only) or simply using CLI.
 * Make a dump of the created database, name it `bdpm.sql`, compress its and drop it in `results/mysql/`.
 
-## Step 5 : Sql requests
+## Step 5 : SQL requests
 
 * In `results/mysql/` create a `bdpm_request.sql` file.
 * In this file we will write the `sql` request to join `CIS_bdpm` and `COMPO_bdpm`.
