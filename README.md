@@ -29,9 +29,9 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 ## Step 5 : Sql requests
 
 * In `results/mysql/` create a `bdpm_request.sql` file.
-* In this file we will write the `sql` request to join `CIS_BDPM` and `COMPO_BDPM`.
+* In this file we will write the `sql` request to join `CIS_bdpm` and `COMPO_bdpm`.
 * (There is usefull resources to learn how to do a join in mysql [here](https://www.w3schools.com/sql/sql_join.asp)).
-* We will join `COMPO_BDPM` to `CIS_BDPM` on the equivalence of the foreign key `cis`.
+* We will join `COMPO_bdpm` to `CIS_bdpm` on the equivalence of the foreign key `cis`.
 <br><br>
 * In a new python script, using pandas, execute the previously created sql request.
 * You can print the 5 first lines of the resulting pandas dataframe.
