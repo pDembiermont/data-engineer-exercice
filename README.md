@@ -13,7 +13,7 @@ The purpose of this exercice is ...
 
 ## Step 2 : Targz
 
-Open the archive `bdpm_headers.tgz` to acess the headers for the Bdpm's csv.
+Open the archive `bdpm_headers.tgz` (in `exercice/`)to acess the headers for the Bdpm's csv.
 
 ## Step 3 : Dataframes Basics
 
@@ -22,7 +22,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 ## Step 4 : Mysql Basics
 
 * Pull a docker image of `mysql` and run it ! (Create a `dockerfile` in `results/mysql/` showing what you did).
-* Connect to it from within you previously created script (the one with the pandas dataframes) then add the dataframe to the `mysql` instance (one dataframe is a separated table in the database).
+* Connect to it from within you previously created script (the one with the pandas dataframes) then add the dataframe to the `mysql` instance (one dataframe is a separated table in the database named respectively `CIS_bdpm` and `COMPO_bdpm`).
 * You can view your newly created `mysql` database using a GUI tool like TablePlus (mac/windows) or Sequel Pro (mac only) or simply using CLI.
 * Make a dump of the created database, name it `bdpm.sql`, compress its and drop it in `results/mysql/`.
 
