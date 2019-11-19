@@ -1,6 +1,6 @@
 # Data Engineer Test
 
-The purpose of this exercice is ...
+The purpose of this exercice is to 
 
 # Part I
 
@@ -48,7 +48,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * To avoid unwanted data loading, we can filter the active substances directly in sql.
 * Redo `Step 6` but this time don't filter (on `sub_nature`= `SA`) in pandas but directly by amending `bdpm_request.sql` (practically create a new file called `filtered_bdpm_request.sql` in the same directory)
 
-# Part 2 (optional)
+# Part 2
 
 ## Step 1 : Data harvesting from the web
 
