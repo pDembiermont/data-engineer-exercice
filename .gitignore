@@ -1,0 +1,9 @@
+notebooks/
+credentials/
+__pycache__/
+.ipynb_checkpoints/
+results/
+venv/
+.env
+.DS_Store
+
