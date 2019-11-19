@@ -13,7 +13,7 @@ The purpose of this exercice is ...
 
 ## Step 2 : Targz
 
-Open the archive `bdpm_headers.tar.gz` to acess the headers for the Bdpm's csv.
+Open the archive `bdpm_headers.tgz` to acess the headers for the Bdpm's csv.
 
 ## Step 3 : Dataframes Basics
 
