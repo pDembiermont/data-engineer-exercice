@@ -66,19 +66,3 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * Now create a function that, given a string, queries Elasticsearch and returns the result.
 * Print the result then save it as a json file in `results/elasticsearch/`.
 
-# Part 3 (optional):
-
-## Step 1: Ontologies
-
-* 
-
-## Step 2: Turtle (RDF)
-
-*
-
-# Part 4 (optional):
-
-## Step 1: Airflow
-
-## Step 2: Kafka
-
