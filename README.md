@@ -66,9 +66,5 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * You will need to use a way to index documents from python into elasticsearch. You can use [this package](https://elasticsearch-py.readthedocs.io/en/master/).
 * When documents are indexed, take a look at [kibana](localhost:5601) to check everything is correctly in.
 * Now create a function that, given a string, queries Elasticsearch and returns the result.
-<<<<<<< Updated upstream
 * Print the result then save it as a json file in `results/elasticsearch/`.
 
-=======
-* Print the result then save it as a json file in `results/elasticsearch/`.
->>>>>>> Stashed changes
