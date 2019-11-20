@@ -56,7 +56,7 @@ Open the Bdpm's csv in pandas and add the corresponding headers to them.
 * In the resulting dataframe we want to keep only active substances, so you'll need to filter it by `sub_nature` = `SA`.
 * In the same dataframe, we want to create a new column called `normalized_longname` that is a copy of the `longname` column except we want the values to be lowered and cleared of any accents. In addition we want to get rid of the portion corresponding to the drug form after the coma. Ex: `ANASTROZOLE ACCORD 1 mg, comprimé pelliculé` -> `anastrozole accord 1 mg`
 <br><br>
-**Tips**: We want to convert the coma between digits to a dot.
+:star: **Tips**: We want to convert the coma between digits to a dot.
 
 ## Step 7 : Filter in SQL
 
