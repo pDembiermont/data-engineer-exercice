@@ -17,7 +17,7 @@ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
 
 To map a container port to one of your machine do as follow:
 ```shell
-docker run -d -p8080:3306 mysql
+docker run -d -p 8080:3306 mysql
 ```
 
 In this example we run a docker container containing the `latest` image of `mysql` with the dafault port of `mysql 3306` mapped to the port `8080` of your machine.
