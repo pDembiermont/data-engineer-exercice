@@ -74,7 +74,7 @@ As structured data is not the most common source of data on the world wide web, 
 * We end up with a list of selectors, we want to merge `p` until we meet a `h2` then start merging again.
 * Merge the `h2` text content to the corresponding paragraph.
 
-:star: **Tips**: use the `xpath` selector to query `p` and `h2` from the root of the div `#mw-content-text`.
+  :star: **Tips**: use the `xpath` selector to query `p` and `h2` from the root of the div `#mw-content-text`.
 
 ## Step 2 : Searching the content using Elasticsearch
 
